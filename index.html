@@ -6,13 +6,13 @@
     <title>Mi Primera Pagina Web</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="resources/css/estilos.css">
 </head>
 
 <body>
     <div class="contenedorr">
         <div class="loader-icon">
-            <img src="/img/logo002.png" alt="gif de algo">
+            <img src="resources//img/logo002.png" alt="gif de algo">
         </div>
         <div class="loader">
             <div class="linea"></div>
@@ -27,7 +27,7 @@
     </div>
     <header class="header">
         <div class="contenedor">
-            <img src="img/logo002.png" class="logos">
+            <img src="resources/img/logo002.png" class="logos">
             <nav class="nav" id="nav">
                 <ul class="menu__link">
                     <li><a href="#Menu_Menu">Menu</a></li>
@@ -41,16 +41,16 @@
     <div class="slider">
         <ul>
             <li>
-                <img src="/img/slider1.jpg">
+                <img src="resources//img/slider1.jpg">
             </li>
             <li>
-                <img src="/img/slider2.jpg">
+                <img src="resources//img/slider2.jpg">
             </li>
             <li>
-                <img src="/img/slider3.jpg">
+                <img src="resources//img/slider3.jpg">
             </li>
             <li>
-                <img src="/img/slider4.jpg">
+                <img src="resources//img/slider4.jpg">
             </li>
         </ul>
         <div class="contenedor__textt">
@@ -66,7 +66,7 @@
                 <h1>Nuestra Carta</h1>
                 <div class="galeria">
                     <div class="foto">
-                        <img src="img/Pollo a la  braza1.png">
+                        <img src="resources/img/Pollo a la  braza1.png">
                     </div>
                     <div class="pie">
                         <p>La Poderosa S/70.00</p>
@@ -74,7 +74,7 @@
                 </div>
                 <div class="galeria">
                     <div class="foto">
-                        <img src="img/pollo a la braza 2.png">
+                        <img src="resources/img/pollo a la braza 2.png">
                     </div>
                     <div class="pie">
                         <p>La Indomable S/45.00</p>
@@ -82,7 +82,7 @@
                 </div>
                 <div class="galeria">
                     <div class="foto">
-                        <img src="img/pollo ala braza 3.png">
+                        <img src="resources/img/pollo ala braza 3.png">
                     </div>
                     <div class="pie">
                         <p>La Provocativa S/25.00</p>
@@ -90,7 +90,7 @@
                 </div>
                 <div class="galeria">
                     <div class="foto">
-                        <img src="img/pollo a la braza 4.png">
+                        <img src="resources/img/pollo a la braza 4.png">
                     </div>
                     <div class="pie">
                         <p>El Compadre Una Más S/50.00</p>
@@ -98,7 +98,7 @@
                 </div>
                 <div class="galeria">
                     <div class="foto">
-                        <img src="img/pollo a la braza 5.png">
+                        <img src="resources/img/pollo a la braza 5.png">
                     </div>
                     <div class="pie">
                         <p>La Promo Family one S/125.00</p>
@@ -106,7 +106,7 @@
                 </div>
                 <div class="galeria">
                     <div class="foto">
-                        <img src="img/Pollo a la braza 6.png">
+                        <img src="resources/img/Pollo a la braza 6.png">
                     </div>
                     <div class="pie">
                         <p>La Legendaria S/60.00</p>
@@ -137,11 +137,11 @@
 
     <section class="contact">
         <div class="contact__image-wrapper">
-            <img src="/img/slider1.jpg" alt="" class="contact__image">
+            <img src="resources//img/slider1.jpg" alt="" class="contact__image">
         </div>
-        <div class="contact__right-side">
+        <div class="contact__right-side" >
             <h1 class="contact__title">CONTACTOS</h1>
-            <form action="" class="contact__form-wrapper">
+            <form action="" class="contact__form-wrapper" id="form">
                 <div class="contact__input-line">
                     <label for="name" class="contact__label">Nombres:</label>
                     <input type="text" name="name" id="USERCON" class="contact__input">
@@ -154,7 +154,9 @@
                     <label for="message" class="contact__label">Mensaje:</label>
                     <textarea type="text" name="message" id="MSGCON" class="contact__input--textarea"></textarea>
                 </div>
-                <button type="submit" value="Enviar" class="contact__submit-button" id="btnCrear">
+                <button id="btnCrear" type="submit" class="btn btn-secondary">
+                    Ordenar ahora
+                </button>
             </form>
         </div>
     </section> 
@@ -188,11 +190,11 @@
     <!-------------------Cursor custom------------------------------>
     <style type="text/css">
         * {
-            cursor: none;
+            /*cursor: none; */
         }
     </style>
     <div id="cursor">
-        <img class="cursorr" src="img/cursor.png" />
+        <img class="cursorr" src="resources/img/cursor.png" />
     </div>
     <script type="text/javascript">
         var cursor = document.getElementById(
@@ -208,7 +210,7 @@
 
     <!---------------------------------- CARGA ------------------------------------->
 
-    <script src="/js/script.js"></script>
+    <script src="/resources/js/script.js"></script>
 
 
 </body>
